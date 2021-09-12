@@ -1,0 +1,68 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:812px;
+  min-width:200px;
+  max-width:375px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.q2-2{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:375px;
+  min-width:375px;
+  height:812px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:812px;
+  content:url(assets/images/_2_2.png);
+}
+.q2-2-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.output-onlinepngtool{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:226px;
+  width:128px;
+  min-width:128px;
+  height:117px;
+  margin-top:-771px;
+  margin-bottom:654px;
+  min-height:117px;
+  content:url(assets/images/output_onlinepngtools__7__1.png);
+}
+.output-onlinepngtool-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
