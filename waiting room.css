@@ -1,0 +1,324 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:812px;
+  min-width:200px;
+  max-width:375px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 0.9599999785423279);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.landscape--1--3{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:0px;
+  width:375px;
+  min-width:375px;
+  height:812px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:812px;
+  content:url(assets/images/landscape__1__3.png);
+}
+.landscape--1--3-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.landscape--1--2{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:375px;
+  min-width:375px;
+  height:812px;
+  margin-top:-812px;
+  margin-bottom:0px;
+  min-height:812px;
+  content:url(assets/images/landscape__1__2.png);
+}
+.landscape--1--2-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:91px;
+  width:203px;
+  min-width:203px;
+  height:72px;
+  margin-top:-641px;
+  margin-bottom:569px;
+  min-height:72px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius:10px;
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.The-game-will-begin-{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:91px;
+  width:203px;
+  min-width:203px;
+  margin-top:-628px;
+  margin-bottom:584px;
+  min-height:44px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:500;
+  font-size:18px;
+  letter-spacing:0.54px;
+  line-height:22px;
+}
+.The-game-will-begin--outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.output-onlinepngtool-1{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:134px;
+  width:99.23px;
+  min-width:99.23px;
+  height:114.62px;
+  margin-top:-517px;
+  margin-bottom:402.38px;
+  min-height:114.62px;
+  content:url(assets/images/output_onlinepngtools__5__1.png);
+}
+.output-onlinepngtool-1-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.output-onlinepngtool{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:8px;
+  width:126px;
+  min-width:126px;
+  height:134px;
+  margin-top:-454px;
+  margin-bottom:320px;
+  min-height:134px;
+  content:url(assets/images/output_onlinepngtools__3__1.png);
+}
+.output-onlinepngtool-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.RADRAPTOR{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:121px;
+  width:133px;
+  min-width:133px;
+  margin-top:-431px;
+  margin-bottom:420px;
+  min-height:11px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:italic;
+  font-family:Roboto;
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:0.45px;
+  line-height:18px;
+}
+.RADRAPTOR-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.output-onlinepngtool-2{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:250px;
+  width:86px;
+  min-width:86px;
+  height:97px;
+  margin-top:-406px;
+  margin-bottom:309px;
+  min-height:97px;
+  content:url(assets/images/output_onlinepngtools__2__1.png);
+}
+.output-onlinepngtool-2-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.SAURUS1{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:18px;
+  width:133px;
+  min-width:133px;
+  margin-top:-354px;
+  margin-bottom:343px;
+  min-height:11px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:italic;
+  font-family:Roboto;
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:0.45px;
+  line-height:18px;
+}
+.SAURUS1-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.TREX120{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:219px;
+  width:133px;
+  min-width:133px;
+  margin-top:-335px;
+  margin-bottom:324px;
+  min-height:11px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:italic;
+  font-family:Roboto;
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:0.45px;
+  line-height:18px;
+}
+.TREX120-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Rectangle-7{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:176px;
+  width:183px;
+  min-width:183px;
+  height:44px;
+  margin-top:-84px;
+  margin-bottom:40px;
+  min-height:44px;
+  background-color:rgba(70, 70, 96, 1);
+  border-radius:5px;
+}
+.Rectangle-7-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Rectangle-6{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:176px;
+  width:183px;
+  min-width:183px;
+  height:44px;
+  margin-top:-84px;
+  margin-bottom:40px;
+  min-height:44px;
+  background-color:rgba(70, 70, 96, 1);
+  border-radius:5px;
+}
+.Rectangle-6-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.Game-Pin--23014{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:192px;
+  width:151px;
+  min-width:151px;
+  margin-top:-73px;
+  margin-bottom:67px;
+  min-height:6px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:18px;
+  line-height:22px;
+}
+.Game-Pin--23014-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
