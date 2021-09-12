@@ -1,0 +1,195 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:812px;
+  min-width:200px;
+  max-width:375px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:0px;
+  width:375px;
+  min-width:375px;
+  height:253px;
+  margin-top:0px;
+  margin-bottom:559px;
+  min-height:253px;
+  background:linear-gradient(-179.87deg, rgba(176, 208, 174, 0.800000011920929) 0.16550518534802655%, rgba(196, 196, 196, 0) 88.60702806886167%);
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.image-1{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:152px;
+  width:70px;
+  min-width:70px;
+  height:69px;
+  margin-top:-628px;
+  margin-bottom:559px;
+  min-height:69px;
+  content:url(assets/images/image_1.png);
+}
+.image-1-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Dino-Dash{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:80px;
+  width:215px;
+  min-width:215px;
+  margin-top:-569px;
+  margin-bottom:520px;
+  min-height:49px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(105, 191, 100, 1);
+  font-style:normal;
+  font-family:Monofett;
+  font-weight:400;
+  font-size:45px;
+  line-height:51px;
+}
+.Dino-Dash-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-2{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:198px;
+  width:160px;
+  min-width:160px;
+  height:148px;
+  margin-top:-496px;
+  margin-bottom:348px;
+  min-height:148px;
+  background-color:rgba(253, 161, 114, 1);
+  border:1px solid rgba(0, 0, 0, 1);
+  box-sizing:border-box;
+  border-radius:15px;
+}
+.Rectangle-2-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:16px;
+  width:160px;
+  min-width:160px;
+  height:148px;
+  margin-top:-496px;
+  margin-bottom:348px;
+  min-height:148px;
+  background-color:rgba(241, 180, 178, 1);
+  border:1px solid rgba(0, 0, 0, 1);
+  box-sizing:border-box;
+  border-radius:15px;
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Join-a-Game{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:242px;
+  width:73px;
+  min-width:72px;
+  margin-top:-454px;
+  margin-bottom:396px;
+  min-height:58px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:25px;
+  letter-spacing:0.75px;
+  line-height:30px;
+}
+.Join-a-Game-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Create-a-Game{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:47px;
+  width:98px;
+  min-width:98px;
+  margin-top:-453px;
+  margin-bottom:397px;
+  min-height:56px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:25px;
+  letter-spacing:0.75px;
+  line-height:30px;
+}
+.Create-a-Game-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
