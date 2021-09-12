@@ -1,0 +1,105 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:812px;
+  min-width:200px;
+  max-width:375px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.landscape--1--4{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:375px;
+  min-width:375px;
+  height:812px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:812px;
+  content:url(assets/images/landscape__1__4.png);
+}
+.landscape--1--4-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.The-game-will-begin-{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:9px;
+  width:357px;
+  min-width:357px;
+  margin-top:-503px;
+  margin-bottom:468px;
+  min-height:35px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(70, 70, 96, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:25px;
+  letter-spacing:0.75px;
+  line-height:30px;
+}
+.The-game-will-begin--outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.GO-{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:58px;
+  width:259px;
+  min-width:259px;
+  margin-top:-461px;
+  margin-bottom:351px;
+  min-height:110px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(black);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:500;
+  font-size:100px;
+  letter-spacing:3px;
+  line-height:120px;
+}
+.GO--outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
